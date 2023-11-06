@@ -1,27 +1,24 @@
-package Lab031;
+package Lab4;
 
 public class Dog {
-    public Dog(String n, int a){
+    public Dog(String n, String b){
         name = n;
-        age = a;
+        breed = b;
     }
-
     private String name;
-    private int age;
-
+    private String breed;
     public void setName(String newName){
         this.name = newName;
     }
-
-    public void setAge(int newAge){
-        this.age = newAge;
+    public void setBreed(String breed){
+        this.breed = breed;
     }
-
     public String getName(){
         return this.name;
     }
-
-    public int getAge(){
-        return this.age;
+    public String getBreed(){
+        return this.breed;
     }
 }
+
+
